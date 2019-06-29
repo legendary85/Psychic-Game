@@ -1,17 +1,23 @@
- html {
+ body {
     background: url(../images/psychic.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
   } 
-.container{
-    border: 2px solid whitesmoke;
-    margin: 75px;
-    padding-top: 20px;
-}
+  /* .container{
+      border: 2px solid whitesmoke;
+  } */
+
+  #game{
+      margin: 20px 300px;
+      border: 2px solid #a465fe;
+  }
 
 p{
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    /* border: 2px solid #a465fe; */
     text-align: center;
-    font-size: 48px;
+    font-size: 24px;
     color: whitesmoke;
 }
