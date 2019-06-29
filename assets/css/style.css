@@ -1,8 +1,17 @@
-body{
-    background-color: coral;
+ html {
+    background: url(../images/psychic.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  } 
+.container{
+    border: 2px solid whitesmoke;
+    margin: 75px;
+    padding-top: 20px;
 }
 
 p{
-    font-size: 72px;
-    color: blue;
+    text-align: center;
+    font-size: 48px;
+    color: whitesmoke;
 }
