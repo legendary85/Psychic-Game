@@ -59,6 +59,8 @@ document.onkeyup = function(event) {
         guessesLeft = [];
         restart();  
 }
+$(".modal").modal();
+
     var html = "<p>Press any letter key to begin playing</p>" +
     "<p>wins: " + wins + "</p>" +
     "<p>Losses: " + losses + "</p>" +
@@ -66,6 +68,6 @@ document.onkeyup = function(event) {
     "<p>You Guessed: " + yourGuess + "</p>" ;
     
 
-    document.querySelector("#game").innerHTML = html;
+    document.querySelector("#gameResults").innerHTML = html;
     
 };
