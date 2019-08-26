@@ -5,35 +5,37 @@
 // Display the result to the user
 
 // Array of letter for the computer to randomly select from
+//ARRAY FROM A - Z
+// var computerSelects = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z"
+// ];
 
-var computerSelects = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z"
-];
+var computerSelects = ["a", "s", "d", "f", "q", "w", "e", "r", "z", "x", "c"];
 
 var wins = 0;
 var losses = 0;
